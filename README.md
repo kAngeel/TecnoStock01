@@ -88,7 +88,7 @@ las contraseñas se almacenan con Argon2id y el hash debe generarse en Python
 (no en SQL). Cambiar la contraseña por defecto antes de usar el sistema.
 
 ### 3. Frontend (Angular)
-
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
 ```powershell
 cd frontend
 npm install
